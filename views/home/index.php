@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="../../resources/css/styles.css" />
     <!---Bootstrap css--->
     <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
+    <!---VideoJS css--->
+    <link href="../../resources/css/video-js.min.css" rel="stylesheet" />
+    <!---Legacy VideoJS for compatibility--->
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
     <title>Homepage Ladrillo</title>
 </head>
 <body>
@@ -41,6 +46,9 @@
     <script src="../../resources/js/bootstrap.bundle.min.js"></script>
      <!-- CDN Link to SB Forms Scripts -->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <!--Video JS script, video player script-->
+    <script src="../../resources/js/video.min.js"></script>
+    <script src="../../resources/js/video-player.js"></script>
 
 </body>
 </html>
