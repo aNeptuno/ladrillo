@@ -16,14 +16,16 @@
     <title>Homepage Ladrillo</title>
 </head>
 <body>
-    <!-- HEADER -->
-    <?php
-    include "header.inc";
-    ?>
+    
 
     <!-- NAVBAR -->
     <?php
     include "navbar.inc";
+    ?>
+
+    <!-- HEADER -->
+    <?php
+    include "header.inc";
     ?>
 
     <!-- CONTENT -->

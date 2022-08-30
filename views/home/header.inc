@@ -1,10 +1,7 @@
 <header class="welcome">
-    <div class="img-welcome">
-        <img src="../../resources/images/logos/Copia de Isologotipo Naranja y Blanco SVG.svg" alt="Ladrillo Logo 2" id="logo-welcome">
-    </div>
     <div class="reel">
         <video id="videoPlayer" class="video-js vjs-big-play-centered" >
-            <source src="../../resources/video/reel01.mp4" type="video/mp4">
+            <source src="../../resources/video/reel02.mp4" type="video/mp4">
             <!--
             <source src="../../resources/videoreel01.weebm" type="video/webm">
             -->

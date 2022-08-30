@@ -1,4 +1,5 @@
 
+    <!-- PRODUCTOS -->
     <section class="content" id="prod">
         <h1 class="content-title reveal fade-top">PRODUCTOS</h1>
         <div class="content-body reveal fade-bottom">
@@ -16,7 +17,7 @@
     </section>
 
     <!-- SERVICIOS -->
-    <section class="content" id="#serv">
+    <section class="content" id="serv">
         <h1 class="content-title reveal fade-top">SERVICIOS</h1>
         <div class="content-body reveal fade-bottom">
             <div class="content-body-items">
