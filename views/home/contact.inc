@@ -1,4 +1,4 @@
-<!-- Bootstrap 5 Contact Form Snippet -->
+
  <script>
   if(localStorage.getItem('alert' = 'success')){
     alert('no error');
@@ -9,21 +9,17 @@ localStorage.removeItem('alert');
  };
  if(localStorage.getItem('alert' = 'error')){
     alert('error');
-/* <div class="alert alert-danger" role="alert">
-  This is a danger alert—check it out!
-</div>
-localStorage.removeItem('alert'); */
 }; 
 
  </script>
- 
+ <section id="contacto">
  <div class="container-fluid contact">
         <div class="row justify-content-center bg-black">
         <div class="col-xl-10">
             <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
             <div class="card-body p-0">
                 <div class="row g-0">
-                <div class="col-sm-6 d-none d-sm-block bg-image"></div>
+                <div class="col-sm-6 d-none d-sm-block bg-image reveal fade-bottom"></div>
                 <div class="col-sm-6 p-4">
                     <div class="text-center">
                     <div class="h1 contacto-title reveal fade-top">CONTACTO</div>
@@ -87,7 +83,7 @@ localStorage.removeItem('alert'); */
                 
                 <script src='https://www.google.com/recaptcha/api.js'></script>
 
-                <div class="g-recaptcha" data-sitekey="6LecbRIiAAAAAPSXQth20EILpKCqfGh2tJsqQZ2Z"></div>
+               <!--  <div class="g-recaptcha" data-sitekey="6LecbRIiAAAAAPSXQth20EILpKCqfGh2tJsqQZ2Z"></div> -->
 
             </form>
     
@@ -99,3 +95,4 @@ localStorage.removeItem('alert'); */
         </div>
         </div>
     </div>
+</section>
