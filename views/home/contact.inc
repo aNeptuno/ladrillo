@@ -1,7 +1,24 @@
 <!-- Bootstrap 5 Contact Form Snippet -->
+ <script>
+  if(localStorage.getItem('alert' = 'success')){
+    alert('no error');
+ <div class="alert alert-success" role="alert">
+  This is a success alert—check it out!
+</div>
+localStorage.removeItem('alert');
+ };
+ if(localStorage.getItem('alert' = 'error')){
+    alert('error');
+/* <div class="alert alert-danger" role="alert">
+  This is a danger alert—check it out!
+</div>
+localStorage.removeItem('alert'); */
+}; 
 
-    <div class="container-fluid contact">
-        <div class="row justify-content-center">
+ </script>
+ 
+ <div class="container-fluid contact">
+        <div class="row justify-content-center bg-black">
         <div class="col-xl-10">
             <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
             <div class="card-body p-0">
@@ -9,62 +26,70 @@
                 <div class="col-sm-6 d-none d-sm-block bg-image"></div>
                 <div class="col-sm-6 p-4">
                     <div class="text-center">
-                    <div class="h1 contacto-title">CONTACTO</div>
+                    <div class="h1 contacto-title reveal fade-top">CONTACTO</div>
                     </div>
-    
-                    <!-- * * * * * * * * * * * * * *
-                // * * SB Forms Contact Form * *
-                // * * * * * * * * * * * * * * *
-    
-                // This form is pre-integrated with SB Forms.
-                // To make this form functional, sign up at
-                // https://startbootstrap.com/solution/contact-forms
-                // to get an API token!
-                //data-sb-form-api-token="API_TOKEN"
-                -->
-    
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-    
-                    <!-- Name Input -->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-                        <label for="name">Nombre</label>
-                        <div class="invalid-feedback" data-sb-feedback="name:required">Nombre requerido</div>
-                    </div>
-    
-                    <!-- Email Input -->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                        <label for="emailAddress">Correo electrónico</label>
-                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Correo electrónico requerido</div>
-                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">El correo electrónico ingresado es invalido</div>
-                    </div>
-    
-                    <!-- Message Input -->
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
-                        <label for="message">Mensaje</label>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">Mensaje requerido</div>
-                    </div>
-    
-                    <!-- Submit success message -->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center mb-3">
-                        <div class="fw-bolder">Mensaje enviado con éxito</div>
+                    <div class="col-lg mb-md-0 mb-5">
+            <form id="contact-form" class="needs-validation reveal fade-bottom" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="form-outline">
+                            <input type="text" id="name" name="name" class="form-control" required>
+                            <label for="name" class="form-label text-light">Nombre</label>
                         </div>
                     </div>
-    
-                    <!-- Submit error message -->
-                    <div class="d-none" id="submitErrorMessage">
-                        <div class="text-center text-danger mb-3">Error enviando mensaje</div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="email" id="email" name="email" class="form-control" required>
+                            <label for="email" class="form-label text-light">Email</label>
+                        </div>
                     </div>
-    
-                    <!-- Submit button -->
-                    <div class="d-grid">
-                        <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar</button>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                            <label for="subject" class="form-label text-light">Asunto</label>
+                        </div>
                     </div>
-                    </form>
-                    <!-- End of contact form -->
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="10" class="form-control md-textarea" required></textarea>
+                            <label for="message" class="form-label text-light">Mensaje</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+            
+                <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+                
+                <script src='https://www.google.com/recaptcha/api.js'></script>
+
+                <div class="g-recaptcha" data-sitekey="6LecbRIiAAAAAPSXQth20EILpKCqfGh2tJsqQZ2Z"></div>
+
+            </form>
     
                 </div>
                 </div>

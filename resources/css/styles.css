@@ -276,3 +276,21 @@ nav ul li a:hover {
     }
     
 }
+
+ /* Contact */
+ 
+#message {
+        background-color: #d8d4d4;
+    }
+
+#email {
+    background-color: #d8d4d4;
+}
+
+#subject {
+    background-color: #d8d4d4;
+}
+
+#name {
+    background-color: #d8d4d4;
+}
