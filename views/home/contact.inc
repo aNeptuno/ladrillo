@@ -78,7 +78,7 @@ localStorage.removeItem('alert');
                 <!--Grid row-->
             
                 <div class="col-12">
-                        <button class="btn btn-primary" type="submit">Submit form</button>
+                        <button class="btn btn-primary" type="submit">Enviar</button>
                 </div>
                 
                 <script src='https://www.google.com/recaptcha/api.js'></script>
