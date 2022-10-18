@@ -19,8 +19,8 @@ localStorage.removeItem('alert');
             <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
             <div class="card-body p-0">
                 <div class="row g-0">
-                <div class="col-sm-6 d-none d-sm-block bg-image reveal fade-bottom"></div>
-                <div class="col-sm-6 p-4">
+                <!-- <div class="col-sm-6 d-none d-sm-block bg-image reveal fade-bottom"></div> -->
+                <div class="p-4"> <!-- col-sm-6 -->
                     <div class="text-center">
                     <div class="h1 contacto-title reveal fade-top">CONTACTO</div>
                     </div>
@@ -34,7 +34,7 @@ localStorage.removeItem('alert');
                     <div class="col-md-6">
                         <div class="form-outline">
                             <input type="text" id="name" name="name" class="form-control" required>
-                            <label for="name" class="form-label text-light">Nombre</label>
+                            <label for="name" class="form-label contact-text">Nombre</label>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -43,7 +43,7 @@ localStorage.removeItem('alert');
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="email" id="email" name="email" class="form-control" required>
-                            <label for="email" class="form-label text-light">Email</label>
+                            <label for="email" class="form-label contact-text">Email</label>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -53,10 +53,10 @@ localStorage.removeItem('alert');
 
                 <!--Grid row-->
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="subject" name="subject" class="form-control" required>
-                            <label for="subject" class="form-label text-light">Asunto</label>
+                            <label for="subject" class="form-label contact-text">Asunto</label>
                         </div>
                     </div>
                 </div>
@@ -66,11 +66,11 @@ localStorage.removeItem('alert');
                 <div class="row">
 
                     <!--Grid column-->
-                    <div class="col-md-12">
+                    <div class="col-md-6">
 
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="10" class="form-control md-textarea" required></textarea>
-                            <label for="message" class="form-label text-light">Mensaje</label>
+                            <textarea type="text" id="message" name="message" rows="8" class="form-control md-textarea" required></textarea>
+                            <label for="message" class="form-label contact-text">Mensaje</label>
                         </div>
 
                     </div>

@@ -20,7 +20,7 @@
 
     <!-- NAVBAR -->
     <?php
-    include "navbar.inc";
+    include "../navbar.inc";
     ?>
 
     <!-- HEADER -->
@@ -40,7 +40,7 @@
 
     <!-- FOOTER -->
     <?php
-    include "footer.inc";
+    include "../footer.inc";
     ?>
 
     <!---Font awesome--->
