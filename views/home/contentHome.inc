@@ -53,42 +53,44 @@
         </div>
     </section>
     
-    <div class="accordion accordion-flush" id="accordionServices">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Alquiler
-                </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionServices">
-                <div class="accordion-body"> Lorem ipsum dolor sit amet, consectetur ALQUILER adipisicing elit. 
-                    Reiciendis culpa quo asperiores blanditiis, tempora deleniti obcaecati officia corrupti est voluptatibus libero nisi voluptatem, 
-                    facilis, ratione consequuntur eveniet. Fugiat, eum voluptatum.</div>
+    <div class="serv-content">
+        <div class="accordion accordion-flush" id="accordionServices">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Alquiler
+                    </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionServices">
+                    <div class="accordion-body"> Lorem ipsum dolor sit amet, consectetur ALQUILER adipisicing elit. 
+                        Reiciendis culpa quo asperiores blanditiis, tempora deleniti obcaecati officia corrupti est voluptatibus libero nisi voluptatem, 
+                        facilis, ratione consequuntur eveniet. Fugiat, eum voluptatum.</div>
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Asistencia Técnica
-                </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionServices">
-                <div class="accordion-body">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. ASISTENCIA TÉCNICA Aliquam fugiat ipsam 
-                    libero quis officia quia neque ullam, consequatur nihil soluta et vel harum dolorem illum laborum impedit. 
-                    Saepe, magni consequatur? </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Asistencia Técnica
+                    </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionServices">
+                    <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. ASISTENCIA TÉCNICA Aliquam fugiat ipsam 
+                        libero quis officia quia neque ullam, consequatur nihil soluta et vel harum dolorem illum laborum impedit. 
+                        Saepe, magni consequatur? </div>
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Postproducción
-                </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionServices">
-                <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Magni nostrum eaque voluptatum, temporibus, POSTPRODUCCIÓN vero officiis, quasi suscipit nemo error explicabo fuga 
-                    voluptate in perspiciatis consequuntur! Aspernatur exercitationem numquam earum quis.</div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Postproducción
+                    </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionServices">
+                    <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Magni nostrum eaque voluptatum, temporibus, POSTPRODUCCIÓN vero officiis, quasi suscipit nemo error explicabo fuga 
+                        voluptate in perspiciatis consequuntur! Aspernatur exercitationem numquam earum quis.</div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-1 navbar-dark bg-dark ">
+<nav class="navbar navbar-1 navbar-dark bg-nav">
   <div class="container-fluid">
     <a class="navbar-brand" href="../home/index.php">
       <img src="../../resources/images/logos/iso.svg" alt="Ladrillo logo" id="logo-nav">
@@ -9,11 +9,11 @@
     </button>
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header bg-dark">
+      <div class="offcanvas-header bg-nav">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body bg-dark">
+      <div class="offcanvas-body bg-nav">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
             <a class="nav-link" href="../products/products.php">Productos</a>
@@ -47,7 +47,7 @@
   </div>
 </nav>
 
-<nav class="navbar navbar-2 navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-2 navbar-expand-lg navbar-dark bg-nav">
   <div class="container-fluid">
     <a class="navbar-brand" href="../home/index.html">
       <img src="../../resources/images/logos/iso.svg" alt="Ladrillo logo" id="logo-nav">
