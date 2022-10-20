@@ -49,7 +49,7 @@
 
 <nav class="navbar navbar-2 navbar-expand-lg navbar-dark bg-nav">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../home/index.html">
+    <a class="navbar-brand" href="../home/index.php">
       <img src="../../resources/images/logos/iso.svg" alt="Ladrillo logo" id="logo-nav">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-          <a class="nav-link" href="#prod">Productos</a>
+          <a class="nav-link" href="../products/products.php">Productos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#serv">Servicios</a>

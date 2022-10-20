@@ -12,6 +12,7 @@ localStorage.removeItem('alert');
 }; 
 
  </script>
+ 
  <section id="contacto">
  <div class="container-fluid contact">
         <div class="row justify-content-center bg-black">
