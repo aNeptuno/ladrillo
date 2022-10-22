@@ -53,8 +53,8 @@
         </div>
     </section>
     
-    <div class="serv-content">
-        <div class="accordion accordion-flush" id="accordionServices">
+    <div class="container serv-content">
+        <div class="accordion accordion-flush accordion-custom" id="accordionServices">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -96,7 +96,7 @@
         </div>
     
 
-    
+        <!-- Creo que las franjas blancas tienen que ver con que el accordion está en un break entre los parallax -->    
 
     <section class="parallax img-p-2">
     </section>
