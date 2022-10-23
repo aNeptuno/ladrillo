@@ -57,8 +57,10 @@
     <script src="https://kit.fontawesome.com/cc72c2879b.js" crossorigin="anonymous"></script>
     <!---Bootstrap js--->
     <script src="../../resources/js/bootstrap.bundle.min.js"></script>
-     <!-- CDN Link to SB Forms Scripts -->
+    
+    <!-- CDN Link to SB Forms Scripts -->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    
     <!--Video JS script, video player script-->
     <script src="../../resources/js/video.min.js"></script>
     <script src="../../resources/js/video-player.js"></script>
