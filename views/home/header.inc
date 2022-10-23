@@ -1,10 +1,8 @@
 <header class="welcome">
     <div class="reel">
         <video id="videoPlayer" class="video-js vjs-big-play-centered" >
-            <source src="../../resources/video/reel02.mp4" type="video/mp4">
-            <!--
-            <source src="../../resources/videoreel01.weebm" type="video/webm">
-            -->
+            <source src="../../resources/video/reel03.mp4" type="video/mp4">
+            
             <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider upgrading to a
                 web browser that

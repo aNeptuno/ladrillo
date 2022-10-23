@@ -1,0 +1,55 @@
+/* CONTACT FORM */
+
+.bg-image {
+    /*  background-image: url('../images/logos/Copia\ de\ Isologotipo\ Blanco\ SVG.svg'); */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 80%;
+      
+  }
+  
+  .contact {
+      background-color: black;
+      height: 600px;
+  }
+  
+  .card {
+      background-color: black !important;
+  }
+  
+  .contacto-title {
+      font-size: 25px;
+      letter-spacing: 10px;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 30px;
+  }
+  
+  .contact-text {
+    color: rgba(255, 255, 255, 0.6) !important;
+    letter-spacing: 1px;
+  }
+  
+  .btn-primary {
+      color: rgb(14, 1, 1) !important;
+      background-color: rgb(232, 115, 23) !important;
+      border-color: rgb(232, 115, 23) !important;
+  }
+
+/* Contact */
+ 
+#message {
+    background-color: #d8d4d4;
+}
+
+#email {
+background-color: #d8d4d4;
+}
+
+#subject {
+background-color: #d8d4d4;
+}
+
+#name {
+background-color: #d8d4d4;
+}
