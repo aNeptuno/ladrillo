@@ -1,12 +1,21 @@
+<!-- HEADER -->
+<section class="headers">
+    <div class="caption-left">
+
+    </div>
+</section>
 
 <!-- PRODUCTOS -->
 <section class="parallax img-pr-1">
-        <div class="caption-left">
-            <h1>PRODUCTOS</h1>
-            <p>Nos encargamos de la producción audiovisual en todas sus etapas, desde la concepción de la idea hasta finalizada su edición.</p>
-            <p>Trabajamos en diálogo con nuestros clientes para garantizar el enfoque deseado.</p>
-            <p>Contamos con productos preestablecidos y también recibimos con entusiasmo propuestas distintas e innovadoras.</p>
-        </div>
+    <div class="caption-left">
+        <!--
+       <h3>home / productos</h3>
+        -->
+        <ul>
+            <li id="first">home </li>
+            <span>/</span>
+            <li>productos </li>
+        </ul>
+        <h1>PRODUCTOS</h1>
+    </div>
 </section>
-
-
