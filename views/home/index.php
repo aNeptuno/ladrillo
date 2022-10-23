@@ -13,9 +13,10 @@
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="../../resources/css/styles.css" />
-    <link rel="stylesheet" href="../../resources/css/header_style.css" />
+    <link rel="stylesheet" href="../../resources/css/reel_style.css" />
     <link rel="stylesheet" href="../../resources/css/nav_foot_style.css" />
     <link rel="stylesheet" href="../../resources/css/contact_style.css" />
+    
 
     <!-- HOME -->
     <link rel="stylesheet" href="../../resources/css/home_style.css" />
