@@ -18,7 +18,7 @@
 }
 
 .black {
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(0, 0, 0, 0.856);
     color: rgb(238, 235, 235);
 }
 
@@ -56,7 +56,7 @@
 
 .section-btn {
     align-self: center;
-    margin: 40px;
+    margin-bottom: 40px;
 }
 
 .fa-solid {
@@ -84,6 +84,16 @@
 .item {
     width: 30%;
     padding: 20px;
+}
+
+.about-p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.section-carousel {
+    width: 60%;
+    height: 100%;
 }
 
 /* MEDIA QUERYS */ 

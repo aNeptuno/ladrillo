@@ -12,59 +12,6 @@ html {
 }
 
 
-/* CONTENIDO  */
-
-/* .content {
-    background-color:  #0c0c0c;
-    display: flex;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    flex-direction: column;
-    align-items: center;   
-}
-
-.content-title {
-    padding: 40px;
-    margin-bottom: 0;
-    font-size: 25px;
-    letter-spacing: 10px;
-    background-color: transparent;
-    color: rgba(255, 255, 255, 0.6);
-    align-self: center;
-}
-
-.content-body {
-    display: flex;
-    flex-direction: row; 
-    width: 80%;
-    height: 40%;
-    justify-content: space-between;
-}
-
-.h500 {
-    height: 500px;
-}
-
-.caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-}
-
-.caption .border {
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-    background-color: transparent;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.border-b {
-    border: #d8d4d4;
-} */
-
 /* ACCORDION */
 .accordion-custom {
     --bs-accordion-color: white;
@@ -73,13 +20,10 @@ html {
     --bs-accordion-btn-focus-box-shadow: black;
     --bs-accordion-active-color: var(--bs-gray-700);
     --bs-accordion-active-bg: #d8d4d4;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-
-.content-body-p {
-    width: 60%;
-    margin-bottom: 100px;
-}
 
 /* CAROUSEL */
 
@@ -101,6 +45,10 @@ html {
     letter-spacing: 1px !important;
 }
 
+.carousel-inner {
+    width: 100% !important;
+    padding-bottom: 40px;
+}
 /* PARALLAX */
 
 .parallax {

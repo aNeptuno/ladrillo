@@ -22,9 +22,7 @@ localStorage.removeItem('alert');
                 <div class="row g-0">
                 <!-- <div class="col-sm-6 d-none d-sm-block bg-image reveal fade-bottom"></div> -->
                 <div class="p-4"> <!-- col-sm-6 -->
-                    <div class="text-center">
-                    <div class="h1 contacto-title reveal fade-top">CONTACTO</div>
-                    </div>
+                    <div class="section-title reveal fade-top">/ CONTACTO</div>
                     <div class="col-lg mb-md-0 mb-5">
             <form id="contact-form" class="needs-validation reveal fade-bottom" name="contact-form" action="mail.php" method="POST">
 
