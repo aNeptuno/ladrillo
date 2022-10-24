@@ -99,7 +99,7 @@
         </div>
     </div>
     <div class="section-btn reveal-horizontal fade-right">
-        <a href="../products/products.php">
+        <a href="../aboutUs/aboutUs.php">
             <button type="button" class="btn btn-outline-secondary">¡Conocenos!</button>
         </a>
     </div>
