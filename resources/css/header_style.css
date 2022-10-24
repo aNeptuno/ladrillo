@@ -8,6 +8,14 @@
 }
 
 .img-p-2 {
+    background-image: url("../images/test-img2.jpg");
+    background-color: rgba(12, 12, 12,0.5);
+    background-blend-mode: color;
+    min-height: 450px;
+}
+
+
+.img-p-3 {
     background-image: url("../images/test-img3.jpg");
     background-color: rgba(12, 12, 12,0.5);
     background-blend-mode: color;
@@ -15,15 +23,23 @@
 }
 
 
+.img-p-4 {
+    background-image: url("../images/test-img1crop.jpg");
+    background-color: rgba(12, 12, 12,0.5);
+    background-blend-mode: color;
+    min-height: 450px;
+}
+
+
+
 
 .caption-left {
-    position: absolute;
-    left: 210px;
-    top: 36%;  
+    padding-bottom: 40px;
+    padding-left: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     overflow-x: hidden;
+    align-self: flex-end;
 }
 
 .caption-left h1 {

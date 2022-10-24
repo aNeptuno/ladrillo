@@ -14,17 +14,17 @@
 
 <!-- CONTENT -->
 
-<section class="section grey">
+<section class="section grey p40">
     <div class="section-header">
         <h3 class="section-title">/HOME/PRODUCTOS/COBERTURAS</h3>
         <h2 class="section-subtitle">COBERTURAS</h2>
     </div>
     <div class="section-content">
-        <div class="section-products reveal-horizontal fade-right"> 
-            <div class="section-products-img">
+        <div class="section-products "> 
+            <div class="section-products-img reveal-horizontal fade-left">
                 <img src="../../resources/images/productos/coberturas.png" class="item-img"></img>
             </div>
-            <div class="section-products-text muted">
+            <div class="section-products-text muted reveal-horizontal fade-right">
                 <div class="section-products-text-item">
                     <h3>COBERTURA COMPLETA</h3>
                     <p>Registro total de un evento o espectáculo.</p>
@@ -38,17 +38,17 @@
     </div>
 </section>
 
-<section class="section black">
+<section class="section black p40">
     <div class="section-header">
         <h3 class="section-title reveal-horizontal fade-left">/HOME/PRODUCTOS/DIFUSION</h3>
         <h2 class="section-subtitle reveal-horizontal fade-right">DIFUSION</h2>
     </div>
     <div class="section-content">
-        <div class="section-products reveal-horizontal fade-right"> 
-            <div class="section-products-img">
+        <div class="section-products"> 
+            <div class="section-products-img reveal-horizontal fade-left">
                 <img src="../../resources/images/productos/difusion.png" class="item-img"></img>
             </div>
-            <div class="section-products-text muted">
+            <div class="section-products-text muted reveal-horizontal fade-right">
                 <div class="section-products-text-item">
                     <h3>INSTITUCIONAL</h3>
                     <p>Video presentación.</br>
@@ -71,17 +71,17 @@
     </div>
 </section>
 
-<section class="section grey">
+<section class="section grey p40">
     <div class="section-header">
         <h3 class="section-title reveal-horizontal fade-left">/HOME/PRODUCTOS/MUSICALES</h3>
         <h2 class="section-subtitle reveal-horizontal fade-right">MUSICALES</h2>
     </div>
     <div class="section-content">
-        <div class="section-products reveal-horizontal fade-right"> 
-            <div class="section-products-img">
+        <div class="section-products"> 
+            <div class="section-products-img reveal-horizontal fade-left">
                 <img src="../../resources/images/productos/musicales.png" class="item-img"></img>
             </div>
-            <div class="section-products-text muted">
+            <div class="section-products-text muted reveal-horizontal fade-right">
                 <div class="section-products-text-item">
                     <h3>VIDEOCLIPS</h3>
                     <p>Producción completa, desde la idea a la edición final sobre un tema musical preexistente.</p>

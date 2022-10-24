@@ -1,5 +1,5 @@
 
- <script>
+<!--  <script>
   if(localStorage.getItem('alert' = 'success')){
     alert('no error');
  <div class="alert alert-success" role="alert">
@@ -11,87 +11,52 @@ localStorage.removeItem('alert');
     alert('error');
 }; 
 
- </script>
+</script> -->
+
+<!-- <div class="section-title reveal fade-top">/ CONTACTO</div> -->
  
- <section id="contacto">
- <div class="container-fluid contact">
-        <div class="row justify-content-center bg-black">
-        <div class="col-xl-10">
-            <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
-            <div class="card-body p-0">
-                <div class="row g-0">
-                <!-- <div class="col-sm-6 d-none d-sm-block bg-image reveal fade-bottom"></div> -->
-                <div class="p-4"> <!-- col-sm-6 -->
-                    <div class="section-title reveal fade-top">/ CONTACTO</div>
-                    <div class="col-lg mb-md-0 mb-5">
-            <form id="contact-form" class="needs-validation reveal fade-bottom" name="contact-form" action="mail.php" method="POST">
 
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="form-outline">
-                            <input type="text" id="name" name="name" class="form-control" required>
-                            <label for="name" class="form-label contact-text">Nombre</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="email" id="email" name="email" class="form-control" required>
-                            <label for="email" class="form-label contact-text">Email</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control" required>
-                            <label for="subject" class="form-label contact-text">Asunto</label>
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="8" class="form-control md-textarea" required></textarea>
-                            <label for="message" class="form-label contact-text">Mensaje</label>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-            
-                <div class="col-12">
-                        <button class="btn btn-primary" type="submit">Enviar</button>
-                </div>
-                
-                <script src='https://www.google.com/recaptcha/api.js'></script>
-
-               <!--  <div class="g-recaptcha" data-sitekey="6LecbRIiAAAAAPSXQth20EILpKCqfGh2tJsqQZ2Z"></div> -->
-
-            </form>
-    
-                </div>
-                </div>
-    
+<section class="section black" id="contacto">
+    <div class="section-header">
+        <h3 class="section-title reveal-horizontal fade-left">/ CONTACTO</h3>
+        <h2 class="section-subtitle reveal-horizontal fade-right">Ponete en contacto con nosotros</h2>
+    </div>
+    <div class="section-content-contact">
+        <form class="contact-form" id="contact-form"  name="contact-form" action="mail.php" method="POST">
+            <div class="contact-item">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
             </div>
+            <div class="contact-item">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Email" required>
             </div>
-        </div>
+            <div class="contact-item">
+                <input type="text" class="form-control" placeholder="Asunto" aria-label="Asunto" required>
+            </div>
+            <div class="contact-item">
+                <textarea class="form-control" placeholder="Mensaje" aria-label="Mensaje" required></textarea>
+            </div>
+
+            <div class="contact-btn">
+                <input class="btn btn-secondary btn-contact" type="submit" value="Enviar">
+            </div>
+
+        </form>
+        <div class="contact-info">
+            <h4>Información de contacto</h4>
+            <p>ladrillo@maildeladrillo.com</p>
+            <p>Seguinos en nuestras redes</p>
+            <li class="nav-item brands-menu contact-brands">
+                <a href="https://www.facebook.com/ladrillouy">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/ladrillo.coop/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
         </div>
     </div>
 </section>
+

@@ -1,55 +1,66 @@
 /* CONTACT FORM */
 
-.bg-image {
-    /*  background-image: url('../images/logos/Copia\ de\ Isologotipo\ Blanco\ SVG.svg'); */
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      width: 80%;
-      
-  }
-  
-  .contact {
-      background-color: black;
-      height: 600px;
-  }
-  
-  .card {
-      background-color: black !important;
-  }
-  
-  .contacto-title {
-      font-size: 25px;
-      letter-spacing: 10px;
-      color: rgba(255, 255, 255, 0.6);
-      margin-bottom: 30px;
-  }
-  
-  .contact-text {
-    color: rgba(255, 255, 255, 0.6) !important;
-    letter-spacing: 1px;
-  }
-  
-  .btn-primary {
-      color: rgb(14, 1, 1) !important;
-      background-color: rgb(232, 115, 23) !important;
-      border-color: rgb(232, 115, 23) !important;
-  }
-
-/* Contact */
- 
-#message {
-    background-color: #d8d4d4;
+.section-content-contact {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#email {
-background-color: #d8d4d4;
+.contact-item {
+    padding-bottom: 15px;
 }
 
-#subject {
-background-color: #d8d4d4;
+.contact-item:last-child{
+    padding-bottom: 40px;
 }
 
-#name {
-background-color: #d8d4d4;
+.form-control {
+    background-color: transparent !important;
+    color: inherit !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 1px solid rgba(206, 212, 218,.5) !important;
+    border-radius: 0 !important;
+    padding-left: 0 !important;
+}
+
+.contact-btn {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.btn-contact {
+    width: 20%;
+    padding: 10px !important;
+}
+
+.contact-info {
+    width: 35%;
+    color: rgba(206, 212, 218,.5);
+}
+
+.contact-info a {
+    color: rgba(206, 212, 218,.5);
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.contact-info a:hover {
+    color: #fff;
+}
+
+.contact-form {
+    width: 60%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.contact-brands {
 }

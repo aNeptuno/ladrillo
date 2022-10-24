@@ -70,23 +70,13 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 
-.img-p-1 {
-    background-image: url("../images/test-img1.jpg");
-    min-height: 400px;
-    opacity: 0.9;
+.p40 {
+    padding-top: 40px;
 }
 
-.img-p-2 {
-    background-image: url("../images/test-img2.jpg");
-    position: relative;
-    min-height: 400px;
-    opacity: 0.98;
+.p0 {
+    padding-left: 0 !important;
 }
-
-.img-p-3 {
-    background-image: url("../images/test-img3.jpg");
-    min-height: 500px;
-}
-

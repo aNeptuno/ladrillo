@@ -19,13 +19,13 @@
             <a class="nav-link" href="../products/products.php">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#serv">Servicios</a>
+            <a class="nav-link" href="../services/services.php">Servicios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../aboutUs/aboutUs.php">Quiénes somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#trab">Nuestros trabajos</a>
+            <a class="nav-link" href="../work/work.php">Nuestros trabajos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contacto">Contacto</a>
@@ -62,13 +62,13 @@
           <a class="nav-link" href="../products/products.php">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#serv">Servicios</a>
+          <a class="nav-link" href="../services/services.php">Servicios</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../aboutUs/aboutUs.php">Quiénes somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#trab">Nuestros trabajos</a>
+          <a class="nav-link" href="../work/work.php">Nuestros trabajos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contacto">Contacto</a>
