@@ -1,7 +1,7 @@
 
 
 <!-- HEADER -->
-<section class="parallax img-pr-1">
+<section class="parallax img-p-1">
     <div class="caption-left">
         <ul>
             <li id="first"><a href="../home/index.php">HOME</a></li>
@@ -11,6 +11,8 @@
         <h1>NUESTROS PRODUCTOS</h1>
     </div>
 </section>
+
+<!-- CONTENT -->
 
 <section class="section grey">
     <div class="section-header">

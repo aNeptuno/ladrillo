@@ -22,7 +22,7 @@
             <a class="nav-link" href="#serv">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#prod">Quiénes somos</a>
+            <a class="nav-link" href="../aboutUs/aboutUs.php">Quiénes somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#trab">Nuestros trabajos</a>
