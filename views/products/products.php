@@ -13,6 +13,7 @@
 
     <!-- CONTENT -->
     <link rel="stylesheet" href="../../resources/css/content_style.css" />
+    <link rel="stylesheet" href="../../resources/css/home_style.css" />
 
     <link rel="stylesheet" href="../../resources/css/anim.css" />
     <!---Bootstrap css--->
@@ -35,6 +36,11 @@
     <!-- CONTENT -->
     <?php
     include "contentProducts.inc";
+    ?>
+
+    <!-- CONTACT -->
+    <?php
+    include "../contact.inc";
     ?>
 
     <!-- FOOTER -->

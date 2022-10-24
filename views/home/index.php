@@ -45,7 +45,7 @@
 
     <!-- CONTACT -->
     <?php
-    include "contact.inc";
+    include "../contact.inc";
     ?>
 
     <!-- FOOTER -->
