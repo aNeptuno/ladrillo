@@ -39,8 +39,8 @@
         <h3 class="section-title reveal-horizontal fade-left">/ SERVICIOS</h3>
         <h2 class="section-subtitle reveal-horizontal fade-right">Ladrillo tiene los mejores servicios para vos, uwu.</h2>
     </div>
-    <div class="section-content">
-        <div class="accordion accordion-flush accordion-custom" id="accordionServices">
+    <div class="container">
+        <div class="accordion accordion-custom" id="accordionServices">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
