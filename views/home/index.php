@@ -63,6 +63,11 @@
     <script src="../../resources/js/video-player.js"></script>
     <!--Animations-->
     <script src="../../resources/js/anim.js"></script>
+    <!--Validacion Contact Form-->
+    <script src="../../resources/js/validacion.js"></script>
+    <!--SweetAlert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
 
 </body>
 </html>

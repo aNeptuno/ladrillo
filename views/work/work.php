@@ -63,6 +63,8 @@
     <script src="../../resources/js/video-player.js"></script>
     <!--Animations-->
     <script src="../../resources/js/anim.js"></script>
+    <!--Validacion Contact Form-->
+    <script src="../../resources/js/validacion.js"></script>
 
 </body>
 </html>
