@@ -1,14 +1,14 @@
 
 
 .img-p-1 {
-    background-image: url("../images/productos/productosf.png");
+    background-image: url("../images/headers/productosHeader.jpg");
     background-color: rgba(12, 12, 12,0.5);
     background-blend-mode: color;
     min-height: 450px;
 }
 
 .img-p-2 {
-    background-image: url("../images/test-img2.jpg");
+    background-image: url("../images/headers/serviciosHeader.jpg");
     background-color: rgba(12, 12, 12,0.5);
     background-blend-mode: color;
     min-height: 450px;
@@ -16,7 +16,7 @@
 
 
 .img-p-3 {
-    background-image: url("../images/test-img3.jpg");
+    background-image: url("../images/headers/aboutUsHeader.jpg");
     background-color: rgba(12, 12, 12,0.5);
     background-blend-mode: color;
     min-height: 450px;
@@ -24,7 +24,7 @@
 
 
 .img-p-4 {
-    background-image: url("../images/test-img1crop.jpg");
+    background-image: url("../images/headers/trabajosHeader.jpg");
     background-color: rgba(12, 12, 12,0.5);
     background-blend-mode: color;
     min-height: 450px;
@@ -56,7 +56,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 0;
-    font-size: 1.8em;
+    font-size: 1.5em;
     letter-spacing: 5px;
     background-color: transparent;
     color: rgba(105, 105, 105, 0.6);
@@ -78,6 +78,10 @@
 
 .caption-left  a:hover {
     color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.current {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* MEDIA QUERYS PRODUCTS */ 

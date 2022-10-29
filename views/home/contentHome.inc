@@ -7,23 +7,28 @@
 <section class="section grey">
     <div class="section-header">
         <h3 class="section-title reveal-horizontal fade-left">/ PRODUCTOS</h3>
-        <h2 class="section-subtitle reveal-horizontal fade-right">Ladrillo tiene los mejores productos para vos, ahre.</h2>
+        <h2 class="section-subtitle reveal-horizontal fade-right">Hacemos tu proyecto realidad.</h2>
     </div>
     <div class="section-content">
         <div class="item reveal-horizontal fade-right">
-            <i class="fa-solid fa-clapperboard"></i>
+            <i class="fa-solid fa-video"></i>
             <h4 class="item-t">COBERTURAS</h4>
-            <p class="item-p muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, blanditiis.</p>
+            <p class="item-p muted">Hacemos registros completos o parciales de tu evento o espectáculo.</p>
         </div>
         <div class="item reveal-horizontal fade-right">
             <i class="fa-solid fa-bullhorn"></i>
             <h4 class="item-t" >DIFUSION</h4>
-            <p  class="item-p muted">Qui voluptatibus ut sunt eius veritatis quod quia, aliquid, distinctio quaerat nihil dolor.</p>
+            <p  class="item-p muted">Creamos material audiovisual para dar a conocer tu iniciativa.</p>
         </div>
         <div class="item  reveal-horizontal fade-right">
             <i class="fa-solid fa-music"></i>
             <h4 class="item-t">MUSICALES</h4>
-            <p class="item-p muted">Quibusdam, unde molestiae nisi laborum voluptatibus debitis.</p>
+            <p class="item-p muted">Videoclips o sesiones para dar a conocer tu obra.</p>
+        </div>
+        <div class="item  reveal-horizontal fade-right">
+            <i class="fa-solid fa-clapperboard"></i>
+            <h4 class="item-t">OTROS</h4>
+            <p class="item-p muted">Si tenés una idea diferente, contactate con nosotros.</p>
         </div>
     </div>
     <div class="section-btn reveal fade-bottom">
@@ -37,7 +42,7 @@
 <section class="section black">
     <div class="section-header">
         <h3 class="section-title reveal-horizontal fade-left">/ SERVICIOS</h3>
-        <h2 class="section-subtitle reveal-horizontal fade-right">Ladrillo tiene los mejores servicios para vos, uwu.</h2>
+        <h2 class="section-subtitle reveal-horizontal fade-right">Tenemos los servicios que necesitás.</h2>
     </div>
     <div class="container">
         <div class="accordion accordion-custom" id="accordionServices">
@@ -48,9 +53,9 @@
                         </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionServices">
-                        <div class="accordion-body"> Lorem ipsum dolor sit amet, consectetur ALQUILER adipisicing elit. 
-                            Reiciendis culpa quo asperiores blanditiis, tempora deleniti obcaecati officia corrupti est voluptatibus libero nisi voluptatem, 
-                            facilis, ratione consequuntur eveniet. Fugiat, eum voluptatum.</div>
+                        <div class="accordion-body"> Contamos con un pequeño pero útil 
+                            servicio de rental. Contactate para conocer nuestro catálogo.
+                        </div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -61,9 +66,9 @@
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionServices">
                         <div class="accordion-body">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. ASISTENCIA TÉCNICA Aliquam fugiat ipsam 
-                            libero quis officia quia neque ullam, consequatur nihil soluta et vel harum dolorem illum laborum impedit. 
-                            Saepe, magni consequatur? </div>
+                        ¿Necesitás técnicos para tu rodaje? Los integrantes de Ladrillo nos especializamos en diferentes áreas del audiovisual. 
+                        Contá con nosotros :)
+                        </div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -73,9 +78,7 @@
                         </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionServices">
-                        <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Magni nostrum eaque voluptatum, temporibus, POSTPRODUCCIÓN vero officiis, quasi suscipit nemo error explicabo fuga 
-                            voluptate in perspiciatis consequuntur! Aspernatur exercitationem numquam earum quis.</div>
+                        <div class="accordion-body">Si tenés material filmado pero no sabes qué hacer con él, te podemos ayudar.</div>
                         </div>
                     </div>
                 </div>
@@ -88,8 +91,8 @@
 <section class="section grey">
     <div class="section-header">
         <h3 class="section-title reveal-horizontal fade-left">/ QUIENES SOMOS</h3>
-        <h2 class="section-subtitle  reveal-horizontal fade-right">Somos una cooperativa de producción audiovisual formada por amigos, 
-            con una pasión y una visión común del cine y las formas de producir.</h2>
+        <h2 class="section-subtitle  reveal-horizontal fade-right">Pasión por el cine, una perspectiva en común sobre el medio y nuestra amistad, 
+            nos unió para hacer realidad nuestra visión.</h2>
     </div>
     <div class="section-content">
         <div class="reveal fade-bottom">
@@ -110,7 +113,7 @@
 <section class="section black">
     <div class="section-header">
         <h3 class="section-title reveal-horizontal fade-left">/ NUESTROS TRABAJOS</h3>
-        <h2 class="section-subtitle reveal-horizontal fade-right">Las cosas lindas que hacemo :').</h2>
+        <h2 class="section-subtitle reveal-horizontal fade-right">Conocé nuestros proyectos.</h2>
     </div>
     <div class="section-content section-carousel">
         <div id="carouselProductsCaptions" class="carousel slide reveal fade-bottom" data-bs-ride="carousel">

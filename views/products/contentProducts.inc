@@ -6,7 +6,7 @@
         <ul>
             <li id="first"><a href="../home/index.php">HOME</a></li>
             <span>/</span>
-            <li>PRODUCTOS</li>
+            <li class="current">PRODUCTOS</li>
         </ul>
         <h1>NUESTROS PRODUCTOS</h1>
     </div>

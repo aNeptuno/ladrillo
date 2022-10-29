@@ -5,7 +5,7 @@
         <ul>
             <li id="first"><a href="../home/index.php">HOME</a></li>
             <span>/</span>
-            <li>SERVICIOS</li>
+            <li class="current">SERVICIOS</li>
         </ul>
         <h1>SERVICIOS</h1>
     </div>
