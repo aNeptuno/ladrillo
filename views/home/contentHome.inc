@@ -1,6 +1,6 @@
 
 <section class="trans">
-    <button type="button" class="btn btn-outline-secondary">Scroll button</button>
+    <button type="button" class="btn btn-outline-secondary button-scroll">V</button>
 </section>
 
 <!-- PRODUCTOS -->

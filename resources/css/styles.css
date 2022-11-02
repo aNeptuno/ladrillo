@@ -11,6 +11,20 @@ html {
     scroll-behavior: smooth;
 }
 
+/* BUTTON EDIT */
+
+.btn {
+    --bs-btn-hover-bg: #E87317;
+    --bs-btn-hover-border-color: #E87317;
+}
+
+/* BUTTON SCROLL DOWN */
+
+.button-scroll {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
 
 /* ACCORDION */
 
@@ -36,6 +50,7 @@ html {
 .accordion .accordion-body {
     font-size: 18px;
 }
+
 
 /* CAROUSEL */
 
