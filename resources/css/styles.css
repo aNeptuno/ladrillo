@@ -24,6 +24,8 @@ html {
     height: 65px;
     width: 65px;
     border-radius: 50%;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: #6c757d;
 }
 
 /* ACCORDION */

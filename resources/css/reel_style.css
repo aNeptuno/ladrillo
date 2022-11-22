@@ -25,3 +25,18 @@
 .video-js {
     width: 100% !important;
 }
+
+#button-scroll-icon {
+    color: #6c757d;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.button-scroll:hover {
+    --bs-btn-hover-border-color: white;
+}
+.button-scroll:hover #button-scroll-icon {
+    color: white;
+    font-size: 35px;
+    transition: 0.3s;
+}

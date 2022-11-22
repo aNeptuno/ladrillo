@@ -70,6 +70,7 @@
 .fa-solid:hover {
     color: rgb(252, 164, 97);
     font-size: 40px;
+    /* transition: 0.3s; */
 }
 
 .item-t {
