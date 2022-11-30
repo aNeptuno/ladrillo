@@ -41,6 +41,15 @@
     font-weight: 600;
 }
 
+.section-subtitle a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.856);
+}
+
+.section-subtitle a:hover {
+    color: #E87317;
+}
+
 .section-content {
     display: flex;
     justify-content: space-around;
