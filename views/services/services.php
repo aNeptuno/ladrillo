@@ -14,7 +14,7 @@
 
     <!-- CONTENT -->
     <link rel="stylesheet" href="../../resources/css/content_style.css" />
-    <link rel="stylesheet" href="../../resources/css/home_style.css" />
+    <link rel="stylesheet" href="../../resources/css/services_style.css" />
 
     <link rel="stylesheet" href="../../resources/css/anim.css" />
     <!---Bootstrap css--->

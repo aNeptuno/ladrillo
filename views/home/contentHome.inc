@@ -37,7 +37,7 @@
     </div>
     <div class="section-btn reveal fade-bottom">
         <a href="../products/products.php">
-            <button type="button" class="btn btn-outline-secondary">Conocé más</button>
+            <button type="button" class="btn btn-outline-secondary home-btn">Conocé más</button>
         </a>
     </div>
 </section>
@@ -107,7 +107,7 @@
     </div>
     <div class="section-btn reveal-horizontal fade-right">
         <a href="../aboutUs/aboutUs.php">
-            <button type="button" class="btn btn-outline-secondary">¡Conocenos!</button>
+            <button type="button" class="btn btn-outline-secondary home-btn">¡Conocenos!</button>
         </a>
     </div>
 
@@ -117,27 +117,40 @@
 <section class="section black">
     <div class="section-header">
         <h3 class="section-title reveal-horizontal fade-left">/ NUESTROS TRABAJOS</h3>
-        <h2 class="section-subtitle reveal-horizontal fade-right">Conocé nuestros proyectos.</h2>
+        <h2 class="section-subtitle reveal-horizontal fade-right">Conocé algunos de nuestros proyectos.</h2>
     </div>
     <div class="section-content section-carousel">
         <div id="carouselProductsCaptions" class="carousel slide reveal fade-bottom" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="../../resources/images/trabajos/trabajo1.jpg" class="d-block w-100" alt="...">
+                    <img src="../../resources/images/trabajos/1.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <p>Descripción breve de trabajo 1</p>
+                        <p>
+                            <h3><a href="https://www.youtube.com/watch?v=hTUI70cHDQc">
+                                Cobertura - Homenaje a Juan Peyrou - 2022</a>
+                            </h3>
+                            
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="../../resources/images/trabajos/trabajo2.jpg" class="d-block w-100" alt="...">
+                    <img src="../../resources/images/trabajos/2.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <p>Descripción breve de trabajo 2</p>
+                        <p>
+                            <h3><a href="https://www.youtube.com/watch?v=8ctol8T6_b8">
+                                Videoclip - Primitiva - 2021</a>
+                            </h3>
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <img src="../../resources/images/trabajos/trabajo3.png" class="d-block w-100" alt="...">
+                    <img src="../../resources/images/trabajos/3.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <p>Descripción breve de trabajo 3</p>
+                        <p>
+                            <h3><a href="https://youtu.be/b0a3tx-g9mo">
+                                Fashion Film - Septum - 2021</a>
+                            </h3>
+                        </p>
                     </div>
                 </div>
             </div>

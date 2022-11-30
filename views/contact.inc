@@ -53,7 +53,7 @@ if (isset($_GET["mailError"])) {
 
         <div class="contact-info">
             <h4>Información de contacto</h4>
-            <p>ladrillo@maildeladrillo.com</p>
+            <p>ladrilloproduccionesuy@gmail.com</p>
             <p>Seguinos en nuestras redes</p>
             <li class="nav-item brands-menu contact-brands">
                 <a href="https://www.facebook.com/ladrillouy">
@@ -62,7 +62,7 @@ if (isset($_GET["mailError"])) {
                 <a href="https://www.instagram.com/ladrillo.coop/">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="https://www.youtube.com/">
+                <a href="https://www.youtube.com/channel/UCdT2Xfxy3LvMZS8Agm_lBgQ">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
             </li>

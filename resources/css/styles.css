@@ -18,14 +18,20 @@ html {
     --bs-btn-hover-border-color: #E87317;
 }
 
+
 /* BUTTON SCROLL DOWN */
 
 .button-scroll {
-    height: 65px;
-    width: 65px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
+    border: solid .8px !important;
     --bs-btn-hover-bg: transparent;
-    --bs-btn-hover-border-color: #6c757d;
+    --bs-btn-hover-border-color: rgba(0, 0, 0, 0.5);
+}
+
+.fa-angle-down {
+    font-size: 2em !important;
 }
 
 /* ACCORDION */
